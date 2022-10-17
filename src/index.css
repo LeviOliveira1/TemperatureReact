@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+
+body{
+   background-image: url('img/ricardo-mendonca-sDVDFy-m0Jg-unsplash\(1\).jpg'); 
+    
+}
+h1{
+    color: rgb(3, 3, 3);
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+#botao{
+    background: #2980B9;  
+    background: -webkit-linear-gradient(to right, #bdc3dd, #6394ce, #0c79be);  
+    background: linear-gradient(to right, #bdc3dd, #6394ce, #0c79be);
+    
+}
+#caixa{
+background: #2980B9;  
+background: -webkit-linear-gradient(to right, #bdc3dd, #6394ce, #0c79be);  
+background: linear-gradient(to right, #bdc3dd, #6394ce, #0c79be);   
+}
+#caixa2{
+background: #2980B9;  
+background: -webkit-linear-gradient(to right, #bdc3dd, #6394ce, #0c79be);  
+background: linear-gradient(to right, #bdc3dd, #6394ce, #0c79be);
+}
+
+#botao:hover{
+    background: rgb(43, 43, 114);
+}
+#caixa:hover{
+    background: #bdc3dd00;
+}
+#caixa2:focus{
+    background: rgb(253, 251, 251);
+}
